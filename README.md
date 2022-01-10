@@ -13,8 +13,8 @@ It Calculates the subjectivity and Polarity of the tweets and based on that assi
 
 **Requirements:**</br>
 1) You need elevated access to twitter API which will let you use endpoints and fetch live tweets</br>
-2) All the required keys are imported from a CSV file </br></br>
-3) Tweepy python library is used to communicate between python and twitter
+2) All the required keys are imported from a CSV file </br>
+3) Tweepy python library is used to communicate between python and twitter</br></br>
 
 **Text Processing:**</br>
 1) Remove all @ mentions</br>
