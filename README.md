@@ -7,13 +7,20 @@ It Calculates the subjectivity and Polarity of the tweets and based on that assi
 1) If the value is bigger than 0 then Positive</br>
 2) If the value is smaller than 0 the negative</br>
 3) If the value is equal to 0 then neutral 
-4) A word cloud is generate which highlights the most used words
 </br></br>
 **Requirements:**</br>
 You need elevated access to twitter API which will let you use endpoints and fetch live tweets</br>
 All the required keys are imported from a CSV file 
+**Text Processing:**</br>
+1) Remove all @ mentions</br>
+2) Remove Hashtags</br>
+3) Remove URLs</br>
+4) Remove Emojis
+Regex is used to process all the tweets and convert into clean text
+</br></br>
 
-**Note:**The Project is done on google colab
+
+**Note:**</br>The Project is done on google colab
 [Twitter for Developers](https://developer.twitter.com/en)
 ## Authors
 - [Jayesh Jain](https://github.com/jayesh15)
