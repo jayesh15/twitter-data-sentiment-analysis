@@ -2,7 +2,7 @@
 Analysis of live tweets</br></br>
 
 **Description:**</br>
-This Project analysis Sentiments of a twitter user based on the last n (input) tweets .</br>
+This Project analysis Sentiments of a twitter user based on the last n (input) tweets .Use the twitter API to create endpoints and fetch real time tweets of any user. Tweepy python library was used to authentication and extraction. The tweets are then cleaned using regular expressions ( removing hashtags, @mentions , RTs, emojis and URLs). Used pandas to converts the raw data into data frame and used NLP and sklearn libraries to generate the subjectivity and polarity from the data strings. Made a scoring system to generate a new column ( sentiment ) which holds positive , negative and neutral and values based on the polarity score , generated graphs and word cloud for better data visualization .</br>
 
 **Sentiment Analysis:**</br>
 It Calculates the subjectivity and Polarity of the tweets and based on that assigns a value</br>
@@ -14,6 +14,7 @@ It Calculates the subjectivity and Polarity of the tweets and based on that assi
 **Requirements:**</br>
 1) You need elevated access to twitter API which will let you use endpoints and fetch live tweets</br>
 2) All the required keys are imported from a CSV file </br></br>
+3) Tweepy python library is used to communicate between python and twitter
 
 **Text Processing:**</br>
 1) Remove all @ mentions</br>
