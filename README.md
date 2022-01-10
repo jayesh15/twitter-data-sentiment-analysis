@@ -10,7 +10,7 @@ It Calculates the subjectivity and Polarity of the tweets and based on that assi
 </br></br>
 **Requirements:**</br>
 You need elevated access to twitter API which will let you use endpoints and fetch live tweets</br>
-All the required keys are imported from a CSV file 
+All the required keys are imported from a CSV file </br></br>
 **Text Processing:**</br>
 1) Remove all @ mentions</br>
 2) Remove Hashtags</br>
@@ -20,7 +20,7 @@ Regex is used to process all the tweets and convert into clean text
 </br></br>
 
 
-**Note:**</br>The Project is done on google colab
+**Note:**</br>The Project is done on google colab</br>
 [Twitter for Developers](https://developer.twitter.com/en)
 ## Authors
 - [Jayesh Jain](https://github.com/jayesh15)
