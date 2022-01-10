@@ -8,9 +8,11 @@ It Calculates the subjectivity and Polarity of the tweets and based on that assi
 2) If the value is smaller than 0 the negative</br>
 3) If the value is equal to 0 then neutral 
 </br></br>
+
 **Requirements:**</br>
 You need elevated access to twitter API which will let you use endpoints and fetch live tweets</br>
 All the required keys are imported from a CSV file </br></br>
+
 **Text Processing:**</br>
 1) Remove all @ mentions</br>
 2) Remove Hashtags</br>
