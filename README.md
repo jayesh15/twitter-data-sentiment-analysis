@@ -24,7 +24,8 @@ Regex is used to process all the tweets and convert into clean text
 </br></br>
 
 
-**Note:**</br>The Project is done on google colab</br>
+**Note:** The Project is done on google colab</br>
+
 [Twitter for Developers](https://developer.twitter.com/en)
 ## Authors
 - [Jayesh Jain](https://github.com/jayesh15)
